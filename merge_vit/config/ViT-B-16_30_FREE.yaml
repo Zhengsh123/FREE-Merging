@@ -1,0 +1,19 @@
+
+batch_size: 1024
+num_workers: 16
+data_location: './datasets/'
+exp_name: None
+model_home: ./model/task-vector-checkpoints
+log_root_path: ./logs
+cache_dir: None
+openclip_cachedir: '/gscratch/efml/gamaga/.cache/open_clip'
+special:
+  filter_ratio: 0.7
+  top_k_keep: 0.02
+  top_k_remove: 0.00
+  with_align: False
+  scaling_coef: 1.0
+  shared_only: False
+  task_allocate: False
+  router_path: ./router/router_8.pt
+

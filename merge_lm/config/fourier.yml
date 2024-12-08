@@ -1,0 +1,13 @@
+merge_method: fr_merge
+base_model: roberta-base
+models_to_merge: auto
+models_name: auto
+exclude_param: auto
+model_loader: auto
+dtype: auto
+high_scale_ratio: 0.8
+
+# for merge
+second_merge_method: fourier
+second_merge_config: 
+  scaling: 0.8
