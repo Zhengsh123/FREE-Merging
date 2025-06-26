@@ -1,5 +1,9 @@
 # FREE-Merging
 
+## 🔥 News
+- *2025.06*: 🎉 Our [FREE-Merging](https://arxiv.org/abs/2411.16815) is accepted by ICCV 2025.
+
+## Introduction
 This is the official implementation of our paper: [FREE-Merging: Fourier Transform for Model Merging with Lightweight Experts](https://arxiv.org/abs/2411.16815). We realize cost-free model merging method with lightweight task-specific experts.
 
 We provide the code for merging ViT models, language models, and Large Language Models. We will gradually open-source the merging code of more models in the future. At the same time, we will continue to improve our code framework.
